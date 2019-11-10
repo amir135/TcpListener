@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="3.0.0" />
+    <PackageReference Include="StructureMap" Version="4.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TcpExample.DataAccess\TcpExample.DataAccess.csproj" />
+    <ProjectReference Include="..\TcpExample.Domain.Common\TcpExample.Domain.Common.csproj" />
+    <ProjectReference Include="..\TcpExample.Domain\TcpExample.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
